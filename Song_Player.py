@@ -182,6 +182,6 @@ class Player: # class for playing the music, i.e. the name "Player"
         self.playing_song = True
               
 if __name__ == "__main__":
-    downloaded_songs_directory = 'C:\\Users\\Arthos\\Documents\\Discord Bot\\Songs\\'
+    downloaded_songs_directory = 'DIRECTORY'
     player = Player(downloaded_songs_directory)
     player.play_song_pg() # will not execute anything past this point while the song is still playing or while the while statement is active
